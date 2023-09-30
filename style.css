@@ -79,7 +79,8 @@ header {
 .hero-main-heading {
   font-family: var(--font-secondary);
   font-weight: 900;
-  font-size: 5rem;
+  /* font-size: 5rem; */
+  font-size: clamp(3.5rem, 8vw, 5rem);
 }
 .hero-main-sub_heading {
   font-size: 29px;
@@ -231,7 +232,7 @@ header {
     url(Assets/care-Table.png), url(Assets/care-Table.png),
     url(Assets/care-Table.png);
   background-repeat: no-repeat;
-  background-size: 34.42%, 400px, 400px, 350px, 350px;
+  background-size: 560px, 400px, 400px, 350px, 350px;
   background-position: bottom 0 left 50%, bottom 21% left 11%,
     bottom 21% right 11%, top 0 left -10%, top 0 right -10%;
 }

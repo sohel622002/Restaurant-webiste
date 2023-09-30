@@ -1,0 +1,103 @@
+@media (max-width: 400px) {
+  .input-container_input {
+    width: 100%;
+  }
+  .booking-form-btn {
+    width: 100%;
+    text-wrap: nowrap;
+  }
+  .story-section {
+    padding: 50px;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer {
+    margin-right: -2px;
+  }
+  .sign-up-container {
+    width: 100% !important;
+  }
+  section {
+    padding: 20px !important;
+    overflow: hidden;
+  }
+  /* .story-container {
+    width: 100% !important;
+    position: inherit;
+    top: 0;
+    transform: translateY(0);
+    z-index: 5;
+  } */
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 135vh;
+    background-image: url(Assets/hero-Ilustration.png),
+      url(Assets/hero-Window.png), url(Assets/hero-Window.png),
+      url(Assets/hero-Plant.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 23%, 23%, 18%;
+    background-position: bottom 20px right 0px, bottom 16% right 61%,
+      bottom 16% right 5%, bottom 25px left 7px;
+  }
+  .hero-navigation {
+    display: none;
+  }
+  .customer-card {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .story-container {
+    width: 100% !important;
+    position: inherit;
+    top: 0;
+    transform: translateY(0);
+    z-index: 5;
+  }
+  .Ingredients-container {
+    width: 100% !important;
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  .chef-container {
+    height: 106vh;
+    padding: 15px;
+    align-items: normal;
+
+    background: 
+      url(Assets/shef-Ilustration.png),
+      url(Assets/chef-Ilustration\ 2.png), 
+      var(--clr-secondary);
+    background-repeat: no-repeat;
+    background-size: 90%, 40%;
+    background-position: 
+      bottom 0 right 50%, 
+      bottom 27% left 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .story-section {
+    min-height: 113vh;
+
+    background: url(Assets/story-Ilustration.png), url(Assets/story-shelf.png),
+      url(Assets/story-Plant.png);
+    background-repeat: no-repeat;
+    background-size: 90%, 25%, 25%;
+    background-position: bottom 0 right 15%, bottom 40.5% right 56%,
+      bottom 43% right 10%;
+  }
+  .care-section {
+    background: url(Assets/care-Ilustration.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: bottom 0 left 50%;
+  }
+}
