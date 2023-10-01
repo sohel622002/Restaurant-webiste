@@ -24,6 +24,10 @@ body {
   color: var(--clr-primary);
 }
 
+input[type=checkbox]{
+  display: none;
+}
+
 .hero {
   min-height: 100vh;
   padding-top: 30px;
@@ -48,6 +52,7 @@ header {
   background-color: var(--clr-primary);
   color: var(--clr-secondary);
   border-radius: 33px;
+  position: relative;
 }
 
 .hero-logo {
