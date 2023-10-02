@@ -37,7 +37,7 @@
       bottom 16% right 5%, bottom 25px left 7px;
   }
   .hero > header{
-    margin-inline: 0;
+    margin-inline: 20px;
   }
   .hero-main{
     padding: 5em 20px;
@@ -49,19 +49,9 @@
     display: block;
   }
   .moblie-header{
-    position: absolute;
-    scale: 1 0; 
-    opacity: 0;
-    width: 100%;
-    top: 100%;
-    right: 0;
-    background-color: var(--clr-primary);
-    color: var(--clr-secondary);
-    border-radius: 30px;
-    padding: 20px;
-    transition: all .3s ease;
-    transform-origin: top;
+    display: blck;
   }
+
   .moblie-header > ul{
     list-style: none;
   }
@@ -69,6 +59,7 @@
     padding: 10px;
   }
   input[type=checkbox]:checked ~ .moblie-header{
+    /* display: block; */
     scale: 1 1 !important;
     opacity: 1;
   }
